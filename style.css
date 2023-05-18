@@ -10,8 +10,47 @@ body {
   background: #e6e6e6;
 }
 
+/*
+**** Layout ****
+*/
+
 .header {
-  background: rgb(202, 202, 81);
-  max-width: 100%;
-  height: 250px;
+  background: #f7b600;
+  padding: 15px;
+  text-align: center;
+}
+
+.logo, .navegation {
+  padding: 10px;
+}
+
+/*
+**** Naveggation ****
+*/
+
+a {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: #ffff;
+  padding: 8px 12px;
+}
+
+a:hover {
+  color: #f7b600;
+  background: #ffff;
+}
+
+/*
+**** General ****
+*/
+
+h1 {
+  color: #4e4e4e;
+  font-size: 2.5em;
+}
+
+.branco {
+  color: white;
 }
