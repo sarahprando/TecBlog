@@ -1,22 +1,17 @@
 * {
-    font-family: 'Nunito', sans-serif;
-    margin: 0px;
-    padding: 0px;
-  }
+  margin: 0px;
+  padding: 0px;
+}
 
-  div {
-    margin: 0;
-    padding: 0; 
-    border: 0;
-    font-weight: inherit;
-    font-style: inherit;
-    font-size: 100%;
-    font-family: inherit;
-    vertical-align: baseline;
-  }
+
+body {
+  font-size: 1em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: #e6e6e6;
+}
 
 .header {
-    background: rgb(202, 202, 81);
-    max-width: 100%;
-    height: 250px;
+  background: rgb(202, 202, 81);
+  max-width: 100%;
+  height: 250px;
 }
