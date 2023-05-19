@@ -14,18 +14,44 @@ body {
 **** Layout ****
 */
 
-.header {
+#header {
   background: #f7b600;
   padding: 15px;
   text-align: center;
 }
 
-.logo, .navegation {
+#logo, #navegation {
   padding: 10px;
 }
 
+#posts {
+  width: 920px;
+  margin: 0 auto;
+}
+
+#top__posts {
+  width: 660px;
+  float: left;
+}
+
+#side__posts {
+  width: 240px;
+  float: right;
+}
+
+#top__posts, #side__posts {
+  background: yellow;
+}
+
+#copyright {
+  clear: both;
+  text-align: center;
+  padding: 15px;
+  background: #ccc;
+}
+
 /*
-**** Naveggation ****
+**** Navegation ****
 */
 
 a {
@@ -42,6 +68,8 @@ a:hover {
   background: #ffff;
 }
 
+
+
 /*
 **** General ****
 */
@@ -51,6 +79,6 @@ h1 {
   font-size: 2.5em;
 }
 
-.branco {
+#white {
   color: white;
 }
