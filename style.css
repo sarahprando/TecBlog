@@ -40,6 +40,13 @@ body {
   float: right;
 }
 
+.side__post {
+  font-size: 0.8em;
+  padding: 5px;
+  border-bottom: 1px dotted #ccc;
+
+}
+
 .post {
   padding: 20px;
   margin-bottom: 20px;
@@ -115,9 +122,4 @@ h3 {
   padding-bottom: 10px;
   margin-bottom: 10px;
   display: block;
-}
-
-.side__post {
-  font-size: 0.8em;
-  padding: 5px;
 }
