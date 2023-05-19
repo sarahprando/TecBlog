@@ -27,6 +27,7 @@ body {
 #posts {
   width: 920px;
   margin: 0 auto;
+  padding: 15px;
 }
 
 #top__posts {
@@ -39,8 +40,16 @@ body {
   float: right;
 }
 
-#top__posts, #side__posts {
-  background: yellow;
+.post {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: white;
+}
+
+.side__container {
+  background: white;
+  padding: 10px;
+  margin-bottom: 20px;
 }
 
 #copyright {
@@ -58,17 +67,24 @@ a {
   text-decoration: none;
 }
 
-a:link, a:visited {
+#navegation a:link, #navegation a:visited {
   color: #ffff;
   padding: 8px 12px;
 }
 
-a:hover {
+#navegation a:hover {
   color: #f7b600;
   background: #ffff;
+  text-decoration: none;
 }
 
+a:link, a:visited {
+  color: #f7b600;
+}
 
+a:hover {
+  text-decoration: underline;
+}
 
 /*
 **** General ****
@@ -79,6 +95,29 @@ h1 {
   font-size: 2.5em;
 }
 
+h2 {
+  color: #f7e600;
+}
+
+h3 {
+  color: #565656;
+  background: #ccc;
+  padding: 5px;
+}
+
 #white {
   color: white;
+}
+
+.date__post {
+  font-size: 0.8em;
+  border-bottom: 1px solid #f4f4f4;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.side__post {
+  font-size: 0.8em;
+  padding: 5px;
 }
