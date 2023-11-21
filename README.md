@@ -5,5 +5,7 @@
  <img alt="Sarah-CSS" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 </div>
 <br>
+<p align="center"><a href="https://sarahprando.github.io/TecBlog/">TecBlog</a></p>
+<br>
 <img alt="print" src="img/print.PNG">
 
